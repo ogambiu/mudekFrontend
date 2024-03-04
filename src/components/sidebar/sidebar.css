@@ -1,0 +1,54 @@
+.ps-sidebar-root {
+    height: 100vh;
+    max-width: 100%;
+    position: sticky!important;
+    top: 0%;
+    z-index: 1;
+}
+
+.sidebar {
+    z-index: 2;
+}
+
+.sidebar img {
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: all .5s;
+}
+
+.back-button:hover {
+    opacity: .8;
+}
+
+.ps-menu-button:has(.ps-active) {
+    color: rgb(209, 38, 8)!important;
+}
+
+.sidebar-icon {
+    font-size: 1.6rem;
+    padding-left: 2px;
+}
+
+.sidebar-img {
+    cursor: pointer;
+}
+
+.top-button {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%!important;
+}

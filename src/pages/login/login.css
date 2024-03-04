@@ -1,0 +1,60 @@
+.login {  
+    height: 100vh;
+    background-image: url(https://i0.wp.com/theecmconsultant.com/wp-content/uploads/2022/07/information-management-system-min.webp?fit=6644%2C5000&ssl=1);
+    background-size: cover;
+    .card {
+        background-color: white;
+        color: black!important;
+        opacity: .97;
+        width: 50%;
+        height: 50%!important;
+        &--desc{
+            opacity: 1;
+        }    
+    }
+
+    .card-header {
+        background-color: white;
+    }
+
+    .sidebar-img {
+        width: 70px;
+    }
+
+    @media (max-width: 375px) {
+        .container {
+            .card {
+                width: 100%!important;
+                min-height: 100%!important;
+            }
+            .custom-form{
+                width: 100%!important;
+            }
+        }    
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            .card {
+                width: 80%;
+            }
+            .custom-form{
+                width: 100%!important;
+            }
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .container {
+            .card {
+                height: 55%!important;
+                width: 75%;
+            }
+            .custom-form{
+                width: 90%!important;
+            }
+        }
+    }
+
+    
+}
